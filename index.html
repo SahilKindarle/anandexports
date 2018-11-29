@@ -9,10 +9,8 @@
 	<title>Anand Exports</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
 	<link rel="stylesheet" media="all" href="css/style.css">
-	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="css/aos.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-	<!-- Compiled and minified JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 
@@ -53,11 +51,7 @@
 
 	<div id="slider" style="height:100vh">
 		<ul>
-			<li style="background-image: url(images/01.png);height: 100vh;">
-				<h3 style="color:white">Make your life better</h3>
-				<h2>Genuine diamonds</h2>
-				<!-- <a href="#" class="btn-more">Read more</a> -->
-			</li>
+			
 			<li class="purple" style="background-image: url(images/02.jpg);height:100vh">
 				<h3 style="color:white">She will say “yes”</h3>
 				<h2>engagement ring</h2>
@@ -66,6 +60,11 @@
 			<li class="yellow" style="background-image: url(images/0.jpg);height:100vh">
 				<h3>You deserve to be beauty</h3>
 				<h2>golden bracelets</h2>
+				<!-- <a href="#" class="btn-more">Read more</a> -->
+			</li>
+			<li style="background-image: url(images/01.png);height: 100vh;">
+				<h3 style="color:white">Make your life better</h3>
+				<h2>Genuine diamonds</h2>
 				<!-- <a href="#" class="btn-more">Read more</a> -->
 			</li>
 		</ul>
@@ -114,14 +113,14 @@
 			<section style="padding:30px 0px 30px 0px">
 				<div class="row container">
 					<div class="col s12 l6">
-						<div class="card hoverable">
+						<div class="card hoverable z-depth-5" data-aos="fade-up" data-aos-duration="1000">
 							<div class="card-image">
 								<img src="images/3.jpg">
 							</div>
 						</div>
 					</div>
 					<div class="col s12 l6">
-						<div class="card hoverable">
+						<div class="card hoverable z-depth-5" data-aos="fade-up" data-aos-duration="1000">
 							<div class="card-image">
 								<img src="images/2.jpg">
 							</div>
@@ -157,14 +156,14 @@
 		<div class="row" style="padding:40px 0px 0px 0px">
 			<div class="container">
 				<div class="col s12 m6 l6">
-					<div class="card hoverable">
+					<div class="card hoverable z-depth-5" data-aos="fade-up" data-aos-duration="1000">
 						<div class="card-image">
 							<img src="images/ear1.jpg">
 						</div>
 					</div>
 				</div>
 				<div class="col s12 m6 l6">
-					<div class="card hoverable z-depth-5">
+					<div class="card hoverable z-depth-5" data-aos="fade-up" data-aos-duration="1000">
 						<div class="card-image">
 							<img src="images/ear2.jpg">
 						</div>
@@ -182,7 +181,7 @@
 		<div class="row">
 			<div class="container">
 				<div class="col s12">
-					<div class="card hoverable z-depth-5">
+					<div class="card hoverable z-depth-5" data-aos="fade-up" data-aos-duration="1000">
 						<div class="card-image">
 							<img src="images/earllong.jpeg">
 						</div>
@@ -197,14 +196,14 @@
 		<div class="divider center" style="width: 40%;margin-left: 30%;height: 3px;background-color: #f7c769;margin-bottom: 100px;"></div>
 		<div class="container">
 			<div class="col s12 m6">
-				<div class="card hoverable z-depth-5">
+				<div class="card hoverable z-depth-5" data-aos="fade-up" data-aos-duration="1000">
 					<div class="card-image">
 						<img src="images/month1.jpg">
 					</div>
 				</div>
 			</div>
 			<div class="col s12 m6">
-				<div class="card hoverable z-depth-5">
+				<div class="card hoverable z-depth-5" data-aos="fade-up" data-aos-duration="1000">
 					<div class="card-image">
 						<img src="images/month2.jpg">
 					</div>
@@ -263,9 +262,10 @@
 	</script>
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
-
+	<script src="js/aos.js"></script>
 	<script>
 		M.AutoInit();
+		AOS.init();
 	</script>
 
 
