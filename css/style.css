@@ -325,7 +325,7 @@ a:hover {
 
 #slider li {
 	color: #fff;
-	height: 686px;
+	height: 100vh;
 	background: no-repeat 50% 0;
 	background-size: cover;
 }
@@ -1543,7 +1543,7 @@ h1 {
 
 	#slider h2 {
 		font-size: 18px;
-		margin: -14px 0 -10px;
+		
 		letter-spacing: 1px;
 	}
 
