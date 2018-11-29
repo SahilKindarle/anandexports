@@ -1364,7 +1364,7 @@ h1 {
 ------------------------------------------------------------------------------*/ 
 
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-reso#lution: 192dpi) { 
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
 
 	#logo {
 		background-image: url(../images/logo1.png);
